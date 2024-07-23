@@ -13,7 +13,7 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.3846;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -30,15 +30,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: $type-size-5;
+  color: #b31b1b;
 }
 
 h2 {
-  font-size: $type-size-4;
+  font-size: $type-size-6;
 }
 
 h3 {
-  font-size: $type-size-5;
+  font-size: $type-size-6;
 }
 
 h4 {
@@ -164,12 +165,12 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0em;
 }
 
 /*
