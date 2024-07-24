@@ -11,6 +11,12 @@ main:
     
   - title: "Mentoring"
     url: /mentoring/
+
+  - title: "Professional Activities"
+    url: /professional/
+
+  - title: "Honors and Awards"
+    url: /honors/
         
   # - title: "Blog Posts"
   #   url: /year-archive/

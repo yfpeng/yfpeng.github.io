@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Yifan PENG"
 title_separator          : "-"
-name                     : &name "Yifan Peng"
+name                     : &name "Yifan PENG"
 description              : &description "personal description"
 url                      : https://yfpeng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,16 +22,16 @@ repository               : "yfpeng/yfpeng.github.io"
 author:
   # Biographic information
   avatar           : "05-cropped.jpg"
-  name             : "Contact Information"
+  name             : "Yifan PENG"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "425 E 61ST ST DIV 305, New York, NY"
   employer         : "Weill Cornell Medicine"
-  uri              : # URL
-  email            : "yip4002@med.cornell.edu" 
+  uri              : "https://directory.weill.cornell.edu/person/profile/yip4002"
+  email            : "yip4002@med.cornell.edu"
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  # arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=IwGLficAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"

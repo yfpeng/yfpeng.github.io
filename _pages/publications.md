@@ -1,24 +1,21 @@
 ---
 layout: archive
-title: "Publications"
+title: # "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 <!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+{% endif %} -->
 
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
 
-<a href="{{site.author.googlescholar}}">Google Scholar</a>
-
-Journal articles
-------
+## Journal articles
 
 1. Jin Q, Chen F, Zhou Y, Xu Z, Cheung JM, Chen R, Summers RM, Rousseau JF, Ni P, Landsman MJ, Baxter SL, Al'Aref SJ, Li Y, Chen A, Brejt JA, Chiang MF, Peng Y, Lu Z. Hidden Flaws Behind Expert-Level Accuracy of Multimodal GPT-4 Vision in Medicine. npj Digitial Medicine. 2024 Apr 22. PMID: 38410646; PMCID: PMC10896362.
 1. Holste G, Zhou Y, Wang S, Jaiswal A, Lin M, Zhuge S, Yang Y, Kim D, Nguyen-Mau TH, Tran MT, Jeong J, Park W, Ryu J, Hong F, Verma A, Yamagishi Y, Kim C, Seo H, Kang M, Celi LA, Lu Z, Summers RM, Shih G, Wang Z, Peng Y. Towards long-tailed, multi-label disease classification from chest X-ray: Overview of the CXR-LT challenge. Med Image Anal. 2024 May 31;97:103224. doi: 10.1016/j.media.2024.103224. Epub ahead of print. PMID: 38850624.
@@ -84,8 +81,8 @@ Journal articles
 1. Comeau DC, Doğan RI, Ciccarese P, Cohen KB, Krallinger M, Leitner F, Lu Z, Peng Y, Rinaldi F, Torii M, Valencia V, Verspoor K, Wiegers TC, Wu CH, Wilbur WJ. BioC: a minimalist approach to interoperability for biomedical text processing. Database (Oxford). 2013;2013:bat064. doi: 10.1093/database/bat064. Print 2013. PMID: 24048470; PMCID: PMC3889917. github
 1. Yi X, Peng Y. The design and implementation of a pipeline model machine based on Verilog HDL. Journal of Beijing University of Technology. 2007, 10, 1096-1101.
 
-Conference proceedings
------
+## Conference proceedings
+
 1. Liu H, Peng Y, Weng C. How Good Is ChatGPT for Medication Evidence Synthesis? Stud Health Technol Inform. 2023 May 18;302:1062-1066. doi: 10.3233/SHTI230347. PMID: 37203581.
 1. Tang L, Peng Y, Wang Y, Ding Y, Durrett G, Rousseau JF. Less Likely Brainstorming: Using Language Models to Generate Alternative Hypotheses. Annual Meeting of the Association for Computational Linguistics (ACL). 2023 Jul;2023:12532-12555. doi: 10.18653/v1/2023.findings-acl.794. PMID: 37701928; PMCID: PMC10494958.
 1. Zhu Q, Mathai TS, Mukherjee P, Peng Y, Summers RM, Lu Z. Utilizing Longitudinal Chest X-Rays and Reports to Pre-Fill Radiology Reports. International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI). 2023 Oct;14224:189-198. doi: 10.1007/978-3-031-43904-9_19. preprint
@@ -143,3 +140,39 @@ Conference proceedings
 1. Yi X, Peng Y, Song Q, Yang F, Li X. The schema and implementation of a model machine based on DFA theorem. International Symposium on Education and Computer Science (ECS2009). 2009, 2, 1038-1041. doi:10.1109/ETCS.2009.496.
 1. Zhang M, Peng Y, Fan Y, Li D, Lin X, Wu X. Research on Chinese orientation analysis. The First Chinese Opinion Analysis Evaluation (COAE 2008). 2008, 38-45.
 1. Peng Y, Chen W. A research of storing dynamical data structures based on XML. The 9th National Java Technology and Application Conference. 2006.
+
+## Abstracts
+
+* Zhang Q, Yan Q, Peng Y, Lin M, Schuman JS, Haller JA, Chew EY. Prediction of late stage AMD based on deep learning models using multimodal AREDS data. Investigative Ophthalmology & Visual Science. 2024 Jun 17;65(7):OD50.
+* Teran F, Peng Y, Owyang CG, Wray TC, Hipskind JE, Lessard J, Bédard Michel W, Lanthier C, Nazerian P, de Villa E, Nogueira J, Doynow D, Clinton M, Myslik F, Prager R, Arntfield R, Salinas PD, Dieiev V, Woo MY, Thavanathan R, Puskas G, Singh K, Bhat P, Horn J, Buchanan BM, Baig N, Burns K, Kennedy K, Haines L, Naraghi L, Singh H, Secko M, Singer D, Taylor M, Joyce JM, DeMasi S, Jafry ZM, Phan T, Truong N, Robinson E, Haycock KH, Hansen A, Derr C, Andrus P, Razzak J, Palasz J, Kaviyarasu A, Sands NA, Lin M, Abella BS. Deep Learning Detection of Chest Compression Location Using Transesophageal Echocardiography. Circulation. 2023 Nov 6;148(Suppl_1):A349-A349. doi: 10.1161/circ.148.suppl_1.349
+* Holste G, Wang S, Jiang Z, Shen TC, Shih G, Summers RM, Peng Y*, Wang Z*. Long-Tailed Classification of Thorax Diseases on Chest X-Ray. In RSNA. 2022. (poster).
+* Wang S, Tang L, Majety A, Rousseau JF, Shih G, Ding Y, Peng Y. Prompt-based Learning for Assertion Classification in Clinical Notes. In AMIA 2022 Annual Symposium. 2022. (poster)
+* Lee J, Wangyan T, Chen Q, Chen Q, Keenan TD, Chew E, Lu Z, Wang F, Peng Y. Predicting 2-year and 5-year Late AMD Progression using Deep Learning with Longitudinal Fundus Images. In Investigative Ophthalmology & Visual Science. 2022;63, 3003 – F0273. (poster)
+* Ghahramani GC, Brendel M, Chen Q, Keenan TD, Chen K, Chew E, Lu Z, Peng Y*, Wang F*. Deep learning survival analysis on the progression to late AMD in the Age-Related Eye Disease Study. In Investigative Ophthalmology & Visual Science. 2021 June;62(8):92. (talk)
+* Chen Q, Keenan TD, Peng Y, Domalpally A, Agrón E, Hwang CK, Thavikulwat AT, Lee DH, Li D, Wong WT, Chew E, Lu Z. Detection of reticular pseudodrusen using deep learning. In AMIA 2020 Annual Symposium. 2020. (talk)
+* Keenan TD, Chen Q, Peng Y, Domalpally A, Agrón E, Hwang CK, Thavikulwat AT, Lee DH, Li D, Wong WT, Lu Z, Chew E. Deep learning automated detection of reticular pseudodrusen from fundus autofluorescence images and color fundus photographs in the Age-Related Eye Disease Study 2 (AREDS2). In Investigative Ophthalmology & Visual Science. 2020 June;61(7):1644. (talk)
+* Peng Y, Keenan T, Chen Q, Agrón E, Wong W, Chew E, Lu Z. A deep learning-based survival model for prediction of progression in late Age-related Macular Degeneration (AMD) from color fundus photographs. In AMIA 2019 Annual Symposium. 2019. (talk)
+* Yan K, Peng Y, Standfort V, Bagheri M, Lu Z, Summers RM. Comprehensive Lesion Tagging on Diverse CT Images: Learning from Radiology Reports and Label Ontology. In RSNA Annual Meeting. 2019. (talk)
+* Yan K, Tang Y, Peng Y, Standfort V, Bagheri M, Lu Z, Summers RM. MULAN: Multitask Universal Lesion Analysis Network for Joint Lesion Detection, Tagging, and Segmentation in CT Images. In RSNA Annual Meeting. 2019. (talk)
+* Keenan TD, Peng Y, Chen Q, Agrón E, Wong WT, Lu Z, Chew EY. Deep learning prediction of progression to late age-related macular degeneration in the Age-Related Eye Disease Study (AREDS) using deep feature extraction and survival analysis. In Investigative Ophthalmology & Visual Science. 2019 July;60(9):1491. (poster)
+* Phan L, Ward M, Allot A, Peng Y, Wei CH, Lee K, Lu Z, Wang J, Youkharibache P, Zhang D, Lanczycki C, Geer L, Geer R, Marchler-Bauer A, Madej T, Lu S, Marchler G, Wang Y, Bryant S, Rose P, Holmes JB, Kattman BL. Integrative Analyses of dbSNP For Variant Prioritization and Interpretation. In Biological Data Science. 2018.
+* Wei CH, Phan L, Allot A, Peng Y, Lee K, Maiti R, Hefferon T, Feltz J, Lu Z. Literature Mining to Improve the Prioritization, Curation, and Integration of Knowledge for Clinically Relevant Variants. In ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB). 2018. (talk)
+* Dharssi S, Peng Y, Leaman R, Chew EY, Lu Z. Discovering drug and retinal disease association patterns from electronic medical records: a text mining approach. Investigative Ophthalmology & Visual Science. 2018, 59(9), 4149. (ARVO E-Abstract 2924709)
+* Wang X, Peng Y, Lu L, Bagheri M, Lu Z, Summers RM. Automatic Classification and Reporting of Multiple Common Thorax Diseases Using Chest Radiograph. In RSNA Annual Meeting. 2018. (talk)
+* Dharssi S*, Peng Y*, Chen Q, Agron E, Wong W, Chew E, Lu Z. A Deep Learning Approach for Automated Detection and Quantification of Geographic Atrophy from Color Fundus Photographs. In AAO 2018. 2018. (talk)
+* Wei CH, Phan L, Allot A, Peng Y, Lee K, Maiti R, Hefferon T, Feltz J, Lu Z. Literature Mining to Improve the Prioritization, Curation, and Integration of Knowledge for Clinically Relevant Variants. In ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB). 2018. (talk)
+* Allot A, Peng Y, Wei CH, Lee K, Phan L, Lu Z. A semantic search engine for linking genomic variant data in PubMed and PMC. In International Society for Computational Biology. 2018. (poster)
+* Peng Y, Wang X, Lu L, Bagheri M, Summers R, Lu Z. Text mining radiology reports for deep learning radiology images. In AMIA 2017 Annual Symposium. 2017, 157-158. (talk)
+* Arighi C, Ding R, Gupta S, Li G, Mahmood AA, Peng Y, Ren J, Ross K, Tudor CO, Huang H, Schimidt C, Wu CH, Vijay-Shanker K. Text mining tools for biocuration in iProLINK web portal. In Biocuration. 2015. (poster)
+
+## Book chapters
+
+* Peng Y, Chen Q, Keenan TDL, Chew EL, Lu Z. Artificial Intelligence in Age-Related Macular Degeneration (AMD). Artificial Intelligence in Ophthalmology. Grzybowski A. (eds.). Springer, Cham. 2021, 101-112. doi:10.1016/10.1007/978-3-030-78601-4_8.
+* Peng Y, Zhang Z, Wang X, Yang L, Lu L. Text Mining and Deep Learning for Disease Classification. Handbook of Medical Image Computing and Computer Assisted Intervention. Zhou et al. (eds.). Elsevier. 2019, 109-136. doi:10.1016/B978-0-12-816176-0.00010-7.
+* Wang X, Peng Y, Lu L, Lu Z, Summers RM. ChestX-ray: Hospital-Scale Chest X-ray Database and Benchmarks on Weakly Supervised Classification and Localization of Common Thorax Diseases. Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics. Lu et al. (eds.). Springer. 2019, 369-392. doi:10.1007/978-3-030-13969-8_18.
+* Wang X, Peng Y, Lu L, Lu Z, Summers RM. Automatic Classification and Reporting of Multiple Common Thorax Diseases Using Chest Radiographs. Deep Learning and Convolutional Neural Networks for Medical Imaging and Clinical Informatics. Lu et al. (eds.). Springer. 2019, 393-412. doi:10.1007/978-3-030-13969-8_19.
+
+## Patents
+
+* Chew E, Lu Z, Lenaghan D, Tiarnan K, Wong WT, Peng Y, Chen Q, Agrón E, inventors; The United States of America, as represented by the Secretary, Dept. of Health, assignee. METHODS AND SYSTEMS FOR PREDICTING RATES OF PROGRESSION OF AGE-RELATED MACULAR DEGENERATION. United States patent application US 17/904,573. 2023 Mar 23.
+* Wang X, Peng Y, Lu L, Bagheri M, Lu Z, Summers R. Method and system of building hospital-scale chest x-ray database for entity extraction and weakly-supervised classification and localization of common thorax diseases. WO2018176035A1, filed 03/24/2017
